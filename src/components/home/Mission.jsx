@@ -2,10 +2,10 @@ import mission from "../../assets/mission.webp";
 
 const Mission = () => {
   return (
-    <div className="flex gap-10 justify-center items-center">
+    <div className="flex flex-col lg:flex-row gap-10 justify-center items-center">
       <div className="basis-1/2 space-y-5">
         <h1 className="text-4xl text-logoRed font-bold">Our Mission</h1>
-        <p className="text-lg">
+        <p className="text-lg text-justify">
           Our mission is to lead in the prevention, detection, and response to
           cyber crimes through excellence in education, innovative research, and
           expert services. We aim to develop skilled professionals who can

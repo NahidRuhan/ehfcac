@@ -94,7 +94,7 @@ const NavigationBar = () => {
             </div>
           </div>
           <img onClick={()=>{navigate('/')}}
-            className="hidden lg:flex w-32 h-16 lg:fixed px-4"
+            className="hidden lg:flex w-32 h-16 lg:relative px-4"
             src={logo}
             alt="logo"
           />
@@ -185,7 +185,7 @@ const NavigationBar = () => {
 
 
           </div>
-          <img onClick={()=>{navigate('/')}} className="lg:hidden w-24 h-20" src={logo} alt="logo" />
+          <img onClick={()=>{navigate('/')}} className="lg:hidden w-16 h-10" src={logo} alt="logo" />
         </div>
       </div>
     </>
