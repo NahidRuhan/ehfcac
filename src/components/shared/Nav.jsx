@@ -101,7 +101,7 @@ const NavigationBar = () => {
         </div>
 
         {/* Desktop Nav */}
-        <div className="">
+        <div className="text-nowrap">
           <div className="hidden lg:flex">
             <div className="dropdown dropdown-hover">
               <label

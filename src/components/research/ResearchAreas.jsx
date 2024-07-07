@@ -30,7 +30,7 @@ const ResearchAreas = () => {
   return (
     <div className="container mx-auto my-10">
       <h1 className="text-center text-3xl md:text-5xl font-bold my-10 text-logoRed">Research Areas</h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4">
         {researchAreas.map((area, index) => (
           <div key={index} className="bg-gray-100 p-4 rounded-lg shadow h-auto flex flex-col">
             <img src={area.image} alt={area.title} className="w-full h-32 object-cover rounded-t-lg mb-4" />

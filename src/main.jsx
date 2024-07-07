@@ -12,11 +12,15 @@ import ProgramCourse from './components/courses/ProgramCourse.jsx';
 import Research from './components/research/Research.jsx';
 import Services from './components/services/Services.jsx';
 import NewsEvents from './components/news and events/NewsEvents.jsx';
+import Resources from './components/resources/Resources.jsx';
+import ContactUs from './components/contact us/ContactUs.jsx';
+import Error from './components/error/Error.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
+    errorElement: <Error></Error>,
     children: [
       { path: "/", element: <Home /> },
       { path: "/about-us", element: <AboutUs /> },
@@ -24,6 +28,8 @@ const router = createBrowserRouter([
       { path: "/research", element: <Research /> },
       { path: "/services", element: <Services /> },
       { path: "/news-events", element: <NewsEvents /> },
+      { path: "/resources", element: <Resources /> },
+      { path: "/contact-us", element: <ContactUs /> },
     ],
   },
 ]);

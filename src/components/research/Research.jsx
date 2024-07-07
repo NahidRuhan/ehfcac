@@ -5,11 +5,14 @@ import ResearchTeam from "./ResearchTeam";
 
 const Research = () => {
     return (
-        <div className="space-y-24">
+        <div>
             <Banner></Banner>
+            <div className="mx-3 lg:mx-auto lg:max-w-4xl xl:max-w-7xl 2xl:max-w-7xl py-10 space-y-24">
             <ResearchAreas></ResearchAreas>
             <ResearchTeam></ResearchTeam>
             <ResearchInfo></ResearchInfo>
+            </div>
+            
         </div>
     );
 };
