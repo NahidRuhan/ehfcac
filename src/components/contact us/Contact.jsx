@@ -26,7 +26,7 @@ const Contact = () => {
         <div>
         <div className="my-10 space-y-5">
           <div>
-            <h1 className="text-5xl font-bold my-10 text-center justi">
+            <h1 className="text-5xl font-bold my-10 text-center text-logoRed">
               {/* <AiFillAliwangwang></AiFillAliwangwang> */}
             Get in Touch</h1>
             <p className="text-center">We&apos;d love to hear from you. Whether you have a question about our programs, services, or research, our team is here to help.</p>
