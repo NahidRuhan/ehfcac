@@ -149,7 +149,7 @@ const NavigationBar = () => {
                 tabIndex={0}
                 className="btn btn-ghost m-1 text-white font-poppins font-semibold xl:text-lg"
               >
-                <Link className="hover:border-b-4 hover:border-white" to="/service">Service</Link>
+                <Link className="hover:border-b-4 hover:border-white" to="/services">Service</Link>
               </label>
             </div>
 

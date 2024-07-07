@@ -10,6 +10,8 @@ import Home from './components/home/Home.jsx';
 import AboutUs from './components/aboutUs/AboutUs.jsx';
 import ProgramCourse from './components/courses/ProgramCourse.jsx';
 import Research from './components/research/Research.jsx';
+import Services from './components/services/Services.jsx';
+import NewsEvents from './components/news and events/NewsEvents.jsx';
 
 const router = createBrowserRouter([
   {
@@ -20,6 +22,8 @@ const router = createBrowserRouter([
       { path: "/about-us", element: <AboutUs /> },
       { path: "/program-courses", element: <ProgramCourse /> },
       { path: "/research", element: <Research /> },
+      { path: "/services", element: <Services /> },
+      { path: "/news-events", element: <NewsEvents /> },
     ],
   },
 ]);
