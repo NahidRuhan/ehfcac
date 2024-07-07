@@ -4,7 +4,7 @@ const FeaturedNews = () => {
     return (
         <div className="space-y-5">
 
-            <h1 className="text-4xl text-logoRed font-bold text-center">Featured News</h1>
+            <h1 className="text-3xl md:text-5xl text-logoRed font-bold text-center">Featured News</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
 
 <div className="p-5 bg-slate-100 shadow-xl relative overflow-hidden h-[600px]">

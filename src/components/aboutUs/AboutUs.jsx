@@ -4,20 +4,17 @@ import { GiGraduateCap } from "react-icons/gi";
 import { GiArchiveResearch } from "react-icons/gi";
 import { MdHomeRepairService } from "react-icons/md";
 import { FaPeopleGroup } from "react-icons/fa6";
+import Banner from "../shared/Banner";
 
 const AboutUs = () => {
   return (
     <div>
-      <div>
-        <img
-          className="w-full h-96"
-          src="https://i.ibb.co/g9cfVbK/polygonal19.jpg"
-          alt=""
-        />
-      </div>
+
+        <Banner></Banner>
+
       <div className="mx-3 lg:mx-auto lg:max-w-4xl xl:max-w-7xl 2xl:max-w-7xl py-10 space-y-24">
         <div className="space-y-5">
-          <h1 className="text-5xl text-logoRed font-bold">
+          <h1 className="text-3xl md:text-5xl text-logoRed font-bold">
             About Ethical Hacking and Forensic Cyber Crime Analysis Center
             (EHFCAC)
           </h1>
@@ -34,13 +31,13 @@ const AboutUs = () => {
         <Vision></Vision>
 
         <div className="space-y-5">
-          <h1 className="text-5xl text-logoRed font-bold text-center">
+          <h1 className="text-3xl md:text-5xl text-logoRed font-bold text-center">
             Our Objective
           </h1>
           <div className="grid grid-cols-1 md:grid-cols-2 py-10 gap-5">
             <div className="flex flex-col px-8 py-10 bg-green-100 rounded-3xl mx-3">
               <p className="font-bold text-xl py-5 flex items-center gap-3">
-                <span className="text-5xl">
+                <span className="text-3xl md:text-5xl">
                   <GiGraduateCap></GiGraduateCap>
                 </span>
                 Educational Excellence
@@ -53,7 +50,7 @@ const AboutUs = () => {
 
             <div className="flex flex-col px-8 py-10 bg-green-100 rounded-3xl mx-3">
               <p className="font-bold text-xl py-5 flex items-center gap-3">
-                <span className="text-5xl">
+                <span className="text-3xl md:text-5xl">
                   <GiArchiveResearch></GiArchiveResearch>
                 </span>
                 Innovative Research
@@ -66,7 +63,7 @@ const AboutUs = () => {
 
             <div className="flex flex-col px-8 py-10 bg-green-100 rounded-3xl mx-3">
               <p className="font-bold text-xl py-5 flex items-center gap-3">
-                <span className="text-5xl">
+                <span className="text-3xl md:text-5xl">
                   <MdHomeRepairService></MdHomeRepairService>
                 </span>
                 Expert Services
@@ -77,7 +74,7 @@ const AboutUs = () => {
             </div>
 
             <div className="flex flex-col px-8 py-10 bg-green-100 rounded-3xl mx-3">
-              <p className="font-bold text-xl py-5 flex items-center gap-5"><span className="text-5xl"><FaPeopleGroup /></span>Collaboration</p>
+              <p className="font-bold text-xl py-5 flex items-center gap-5"><span className="text-3xl md:text-5xl"><FaPeopleGroup /></span>Collaboration</p>
               <p className="text-base">
                 To collaborate with industry, government, and academia to
                 enhance cybersecurity practices.
@@ -87,7 +84,7 @@ const AboutUs = () => {
         </div>
 
         <div className="">
-  <h1 className="text-center text-5xl font-bold my-10 text-logoRed">Meet our Team</h1>
+  <h1 className="text-center text-3xl md:text-5xl font-bold my-10 text-logoRed">Meet our Team</h1>
   <p className="text-center">Meet our distinguished team of professionals, educators, and researchers dedicated to cybersecurity excellence.</p>
   <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 justify-items-center">
     {/* Founder */}
@@ -185,7 +182,7 @@ const AboutUs = () => {
 <div>
 <div className="flex flex-col lg:flex-row gap-10 justify-center items-center">
       <div className="basis-1/2 space-y-5">
-        <h1 className="text-4xl text-logoRed font-bold">Our Facilities</h1>
+        <h1 className="text-3xl md:text-5xl text-logoRed font-bold">Our Facilities</h1>
         <p className="text-lg text-justify">
         Our state-of-the-art facilities include advanced laboratories, secure data centers, and modern classrooms designed to provide hands-on learning and research opportunities.
         </p>
