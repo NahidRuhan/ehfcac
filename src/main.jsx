@@ -18,11 +18,11 @@ import Error from './components/error/Error.jsx';
 
 const router = createBrowserRouter([
   {
-    path: "/civil", // Add the /civil path here
+    path: "/civil",
     element: <Root></Root>,
     errorElement: <Error></Error>,
     children: [
-      { path: "/", element: <Home /> },
+      { path: "", element: <Home /> }, // Remove the leading slash
       { path: "about-us", element: <AboutUs /> },
       { path: "program-courses", element: <ProgramCourse /> },
       { path: "research", element: <Research /> },
@@ -36,6 +36,6 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={router} basename="/civil" /> {/* Add the basename setting here */}
+    <RouterProvider router={router} basename="/civil" />
   </React.StrictMode>
 );
