@@ -11,7 +11,7 @@ const Faq = () => {
 
       <div>
 
-        <Accordion>
+        {/* <Accordion>
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
             aria-controls="panel1a-content"
@@ -46,7 +46,7 @@ const Faq = () => {
               No. These are some beginner friendly courses you can enroll yourself into. All you need is some motivation and effort and all needed from you. Rest we will see for ourself.
             </Typography>
           </AccordionDetails>
-        </Accordion>
+        </Accordion> */}
         <Accordion>
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
