@@ -71,37 +71,37 @@ const NavigationBar = () => {
                   </Link>
                 </li>
                 <li onClick={closeNavDrawer}>
-                  <Link className="rounded-lg hover:bg-logoRed hover:text-white" to="/about-us">
+                  <Link className="rounded-lg hover:bg-logoRed hover:text-white" to="/civil/about-us">
                     About Us
                   </Link>
                 </li>
                 <li onClick={closeNavDrawer}>
-                  <Link className="rounded-lg hover:bg-logoRed hover:text-white" to="/program-courses">
+                  <Link className="rounded-lg hover:bg-logoRed hover:text-white" to="/civil/program-courses">
                     Program and Courses
                   </Link>
                 </li>
                 <li onClick={closeNavDrawer}>
-                  <Link className="rounded-lg hover:bg-logoRed hover:text-white" to="/research">
+                  <Link className="rounded-lg hover:bg-logoRed hover:text-white" to="/civil/research">
                     Research
                   </Link>
                 </li>
                 <li onClick={closeNavDrawer}>
-                  <Link className="rounded-lg hover:bg-logoRed hover:text-white" to="/services">
+                  <Link className="rounded-lg hover:bg-logoRed hover:text-white" to="/civil/services">
                     Services
                   </Link>
                 </li>
                 <li onClick={closeNavDrawer}>
-                  <Link className="rounded-lg hover:bg-logoRed hover:text-white" to="/news-events">
+                  <Link className="rounded-lg hover:bg-logoRed hover:text-white" to="/civil/news-events">
                     News and Events
                   </Link>
                 </li>
                 <li onClick={closeNavDrawer}>
-                  <Link className="rounded-lg hover:bg-logoRed hover:text-white" to="/resources">
+                  <Link className="rounded-lg hover:bg-logoRed hover:text-white" to="/civil/resources">
                     Resources
                   </Link>
                 </li>
                 <li onClick={closeNavDrawer}>
-                  <Link className="rounded-lg hover:bg-logoRed hover:text-white" to="/contact-us">
+                  <Link className="rounded-lg hover:bg-logoRed hover:text-white" to="/civil/contact-us">
                     Contact Us
                   </Link>
                 </li>
@@ -136,7 +136,7 @@ const NavigationBar = () => {
                 tabIndex={0}
                 className="btn btn-ghost m-1 text-white font-poppins font-semibold xl:text-lg"
               >
-                <Link className="hover:border-b-4 hover:border-white" to="/about-us">
+                <Link className="hover:border-b-4 hover:border-white" to="/civil/about-us">
                   About Us
                 </Link>
               </label>
@@ -147,7 +147,7 @@ const NavigationBar = () => {
                 tabIndex={0}
                 className="btn btn-ghost m-1 text-white font-poppins font-semibold xl:text-lg"
               >
-                <Link className="hover:border-b-4 hover:border-white" to="/program-courses">
+                <Link className="hover:border-b-4 hover:border-white" to="/civil/program-courses">
                   Program and Courses
                 </Link>
               </label>
@@ -158,7 +158,7 @@ const NavigationBar = () => {
                 tabIndex={0}
                 className="btn btn-ghost m-1 text-white font-poppins font-semibold xl:text-lg"
               >
-                <Link className="hover:border-b-4 hover:border-white" to="/research">
+                <Link className="hover:border-b-4 hover:border-white" to="/civil/research">
                   Research
                 </Link>
               </label>
@@ -169,7 +169,7 @@ const NavigationBar = () => {
                 tabIndex={0}
                 className="btn btn-ghost m-1 text-white font-poppins font-semibold xl:text-lg"
               >
-                <Link className="hover:border-b-4 hover:border-white" to="/services">
+                <Link className="hover:border-b-4 hover:border-white" to="/civil/services">
                   Services
                 </Link>
               </label>
@@ -180,7 +180,7 @@ const NavigationBar = () => {
                 tabIndex={0}
                 className="btn btn-ghost m-1 text-white font-poppins font-semibold xl:text-lg"
               >
-                <Link className="hover:border-b-4 hover:border-white" to="/news-events">
+                <Link className="hover:border-b-4 hover:border-white" to="/civil/news-events">
                   News and Events
                 </Link>
               </label>
@@ -191,7 +191,7 @@ const NavigationBar = () => {
                 tabIndex={0}
                 className="btn btn-ghost m-1 text-white font-poppins font-semibold xl:text-lg"
               >
-                <Link className="hover:border-b-4 hover:border-white" to="/resources">
+                <Link className="hover:border-b-4 hover:border-white" to="/civil/resources">
                   Resources
                 </Link>
               </label>
@@ -202,7 +202,7 @@ const NavigationBar = () => {
                 tabIndex={0}
                 className="btn btn-ghost m-1 text-white font-poppins font-semibold xl:text-lg"
               >
-                <Link className="hover:border-b-4 hover:border-white" to="/contact-us">
+                <Link className="hover:border-b-4 hover:border-white" to="/civil/contact-us">
                   Contact Us
                 </Link>
               </label>

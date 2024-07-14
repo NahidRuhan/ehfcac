@@ -18,16 +18,16 @@ import {
           <footer className="footer place-items-center p-10">
             <nav>
               <header className="footer-title text-black font-bold">Quick Links</header>
-              <Link to="/program-courses">
+              <Link to="/civil/program-courses">
                 <a className="link link-hover">Programs and Courses</a>
               </Link>
-              <Link to="/research">
+              <Link to="/civil/research">
                 <a className="link link-hover">Research</a>
               </Link>
-              <Link to="/services">
+              <Link to="/civil/services">
                 <a className="link link-hover">Services</a>
               </Link>
-              <Link to="/contact-us">
+              <Link to="/civil/contact-us">
                 <a className="link link-hover">Contact Us</a>
               </Link>
             </nav>
@@ -42,16 +42,16 @@ import {
             </nav> */}
             <nav>
               <header className="footer-title text-black font-bold">Follow Us On</header>
-              <Link to="/academics/schools">
+              <Link to="/civil">
                 <p className="link link-hover flex gap-3 items-center"><span><FaFacebookSquare /></span>Facebook</p>
               </Link>
-              <Link to="/academics/schools">
+              <Link to="/civil">
                 <p className="link link-hover flex gap-3 items-center"><span><FaInstagramSquare /></span>Instagram</p>
               </Link>
-              <Link to="/academics/schools">
+              <Link to="/civil">
                 <p className="link link-hover flex gap-3 items-center"><span><FaTwitterSquare /></span>Twitter</p>
               </Link>
-              <Link to="/academics/schools">
+              <Link to="/civil">
                 <p className="link link-hover flex gap-3 items-center"><span><FaLinkedin /></span>LinkedIn</p>
               </Link>
             </nav>
