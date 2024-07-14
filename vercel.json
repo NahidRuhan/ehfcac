@@ -1,0 +1,8 @@
+{
+    "routes": [
+      { "handle": "filesystem" },
+      { "src": "/civil/(.*)", "dest": "/$1" },
+      { "src": "/civil", "dest": "/" }
+    ]
+  }
+  
