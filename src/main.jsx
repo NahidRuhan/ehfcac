@@ -1,5 +1,5 @@
-import React from 'eact'
-import ReactDOM from 'eact-dom/client'
+import React from 'react'
+import ReactDOM from 'react-dom/client'
 import {
   createBrowserRouter,
   RouterProvider,
