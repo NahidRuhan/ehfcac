@@ -19,13 +19,13 @@ const Faq = () => {
           >
             <Typography>
               <p className="font-bold">
-                Please insert your question here?
+                Do I have to be a student of Canadian University Of Bangladesh to get into courses?
               </p>
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              This is the answer of the question.
+              No you don&apos;t have to. Anybody Can enroll in these courses.
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -37,13 +37,13 @@ const Faq = () => {
           >
             <Typography>
               <p className="font-bold">
-                Please insert your question here?
+                Are there any other requirements I have to fullfil to enroll myself into these courses?
               </p>
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              This is the answer of the question.
+              No. These are some beginner friendly courses you can enroll yourself into. All you need is some motivation and effort and all needed from you. Rest we will see for ourself.
             </Typography>
           </AccordionDetails>
         </Accordion>
