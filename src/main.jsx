@@ -18,18 +18,18 @@ import Error from './components/error/Error.jsx';
 
 const router = createBrowserRouter([
   {
-    path: "/civil",
+    path: "/",
     element: <Root></Root>,
     errorElement: <Error></Error>,
     children: [
-      { path: "", element: <Home /> }, // Remove the leading slash
-      { path: "about-us", element: <AboutUs /> },
-      { path: "program-courses", element: <ProgramCourse /> },
-      { path: "research", element: <Research /> },
-      { path: "services", element: <Services /> },
-      { path: "news-events", element: <NewsEvents /> },
-      { path: "resources", element: <Resources /> },
-      { path: "contact-us", element: <ContactUs /> },
+      { path: "/", element: <Home /> },
+      { path: "/about-us", element: <AboutUs /> },
+      { path: "/program-courses", element: <ProgramCourse /> },
+      { path: "/research", element: <Research /> },
+      { path: "/services", element: <Services /> },
+      { path: "/news-events", element: <NewsEvents /> },
+      { path: "/resources", element: <Resources /> },
+      { path: "/contact-us", element: <ContactUs /> },
     ],
   },
 ]);
