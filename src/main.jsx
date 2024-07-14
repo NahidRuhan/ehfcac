@@ -1,5 +1,5 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
+import React from 'eact'
+import ReactDOM from 'eact-dom/client'
 import {
   createBrowserRouter,
   RouterProvider,
@@ -18,24 +18,24 @@ import Error from './components/error/Error.jsx';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/civil", // Add the /civil path here
     element: <Root></Root>,
     errorElement: <Error></Error>,
     children: [
       { path: "/", element: <Home /> },
-      { path: "/about-us", element: <AboutUs /> },
-      { path: "/program-courses", element: <ProgramCourse /> },
-      { path: "/research", element: <Research /> },
-      { path: "/services", element: <Services /> },
-      { path: "/news-events", element: <NewsEvents /> },
-      { path: "/resources", element: <Resources /> },
-      { path: "/contact-us", element: <ContactUs /> },
+      { path: "about-us", element: <AboutUs /> },
+      { path: "program-courses", element: <ProgramCourse /> },
+      { path: "research", element: <Research /> },
+      { path: "services", element: <Services /> },
+      { path: "news-events", element: <NewsEvents /> },
+      { path: "resources", element: <Resources /> },
+      { path: "contact-us", element: <ContactUs /> },
     ],
   },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <RouterProvider router={router} basename="/civil" /> {/* Add the basename setting here */}
   </React.StrictMode>
 );
