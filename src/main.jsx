@@ -1,5 +1,5 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -16,26 +16,31 @@ import Resources from './components/resources/Resources.jsx';
 import ContactUs from './components/contact us/ContactUs.jsx';
 import Error from './components/error/Error.jsx';
 
-const router = createBrowserRouter([
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <Root />,
+      errorElement: <Error />,
+      children: [
+        { path: "/", element: <Home /> },
+        { path: "about-us", element: <AboutUs /> },
+        { path: "program-courses", element: <ProgramCourse /> },
+        { path: "research", element: <Research /> },
+        { path: "services", element: <Services /> },
+        { path: "news-events", element: <NewsEvents /> },
+        { path: "resources", element: <Resources /> },
+        { path: "contact-us", element: <ContactUs /> },
+      ],
+    },
+  ],
   {
-    path: "/civil",
-    element: <Root></Root>,
-    errorElement: <Error></Error>,
-    children: [
-      { path: "/civil", element: <Home /> },
-      { path: "/civil/about-us", element: <AboutUs /> },
-      { path: "/civil/program-courses", element: <ProgramCourse /> },
-      { path: "/civil/research", element: <Research /> },
-      { path: "/civil/services", element: <Services /> },
-      { path: "/civil/news-events", element: <NewsEvents /> },
-      { path: "/civil/resources", element: <Resources /> },
-      { path: "/civil/contact-us", element: <ContactUs /> },
-    ],
-  },
-]);
+    basename: "/civil",
+  }
+);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={router} basename="/civil" />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
