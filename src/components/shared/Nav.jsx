@@ -13,6 +13,8 @@ const NavigationBar = () => {
     setIsNavDrawerOpen(false);
   };
 
+  //edit
+
   // Function to handle clicks outside the nav drawer
   const handleClickOutside = (event) => {
     if (navDrawerRef.current && !navDrawerRef.current.contains(event.target)) {
