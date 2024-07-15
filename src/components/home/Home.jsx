@@ -20,3 +20,5 @@ const Home = () => {
 };
 
 export default Home;
+
+  //   "headers": [{ "source": "/(.*)", "headers": [{"key":"Cache-Control","value":"no-store, max-age=0"}]}]
