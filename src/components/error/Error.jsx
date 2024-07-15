@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 
 const Error = () => {
     const navigate = useNavigate();
-    const handleGoBack=() => navigate('')
+    const handleGoBack=() => navigate('/civil')
 
     return (
         <>
