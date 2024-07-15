@@ -1,4 +1,4 @@
 {
-  "rewrites": [{ "source": "/civil(.*)", "destination": "/civil$1" }],
+  "rewrites": [{ "source": "/civil(.*)", "destination": "/civil$1" },{ "source": "/(.*)","destination":"/"}],
   "redirects": [{ "source": "/", "destination": "/civil", "permanent": true }]
 }
