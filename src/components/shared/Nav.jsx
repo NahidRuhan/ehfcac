@@ -68,7 +68,7 @@ const NavigationBar = () => {
               </button>
               <ul className="menu p-4">
                 <li onClick={closeNavDrawer}>
-                  <Link className="rounded-lg hover:bg-logoRed hover:text-white" to="/">
+                  <Link className="rounded-lg hover:bg-logoRed hover:text-white" to="">
                     Home
                   </Link>
                 </li>
@@ -111,7 +111,7 @@ const NavigationBar = () => {
             </div>
           </div>
           <img
-            onClick={() => navigate("/")}
+            onClick={() => navigate("")}
             className="hidden lg:flex w-32 h-16 px-4"
             src={logo}
             alt="logo"
@@ -127,7 +127,7 @@ const NavigationBar = () => {
                 tabIndex={0}
                 className="btn btn-ghost m-1 text-white font-poppins font-semibold xl:text-lg"
               >
-                <Link className="hover:border-b-4 hover:border-white" to="/">
+                <Link className="hover:border-b-4 hover:border-white" to="">
                   Home
                 </Link>
               </label>
@@ -211,7 +211,7 @@ const NavigationBar = () => {
             </div>
           </div>
           <img
-            onClick={() => navigate("/")}
+            onClick={() => navigate("")}
             className="lg:hidden w-16 h-10"
             src={logo}
             alt="logo"
