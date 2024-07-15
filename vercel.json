@@ -1,9 +1,5 @@
 {
-    "rewrites": [
-      { "source": "/civil(.*)", "destination": "/$1" }
-        ],
-    "redirects": [
-      { "source": "/", "destination": "/civil", "permanent": true }
-        ]
-  }
-  
+  "rewrites": [{ "source": "/civil(.*)", "destination": "/$1" }],
+  "redirects": [{ "source": "/", "destination": "/civil", "permanent": true }],
+  "headers": [{ "source": "/(.*)", "headers": [{"key":"Cache-Control","value":"no-store, max-age=0"}]}]
+}
